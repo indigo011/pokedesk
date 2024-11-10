@@ -1,0 +1,40 @@
+.main-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70%;
+    gap: 30px;
+    margin-top: 76px;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 6px;
+    color: var(--body-txt-clr);
+}
+
+.input {
+    width: 100%;
+    background-color: var(--input-clr);
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.input::placeholder {
+    color: var(--placeholder-clr);
+}
+
+.form-textarea {
+    padding: 20px;
+    font-family: inherit;
+}

@@ -1,0 +1,118 @@
+.header-container {
+    display: flex;
+    flex-direction: column;
+    padding: 28px;
+    gap: 14px;
+    color: var(--body-txt-clr);
+}
+
+.status-filter-container {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+}
+
+.filter {
+    background-color: var(--neutral-white);
+    color: var(--body-txt-clr);
+    padding: 6px;
+    border: 1px solid var(--placeholder-clr);
+    border-radius: 8px;
+    font-family: inherit;
+    width: fit-content;
+    cursor: pointer;
+    transition: border-color 0.2s, background-color 0.5s;
+}
+
+.filter:hover {
+    border-color: var(--body-txt-clr);
+    background-color: #9fa0a348;
+}
+
+.filter:active {
+    background-color: #8e8f918e;
+    transition: background-color 0.3s;
+}
+
+
+.search {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    padding: 1px 10px;
+    border: 1px solid var(--placeholder-clr);
+    border-radius: 8px;
+    align-items: center;
+    margin: 14px 0;
+}
+
+.search-input {
+    background-color: var(--neutral-white);
+    border: none;
+    padding: 8px;
+}
+
+.search-icon {
+    color: var(--placeholder-clr);
+}
+
+.main-container {
+    width: 70%;
+    margin: auto;
+    flex-grow: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+.task-wrapper {
+    display: flex;
+}
+
+.category-filter-container {
+    color: var(--body-txt-clr);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    flex-basis: 15%;
+}
+
+.task-list-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 520px;
+    overflow-y: auto;
+    padding-right: 10px;
+
+}
+
+.task-card {
+    background-color: var(--input-clr);
+    text-align: left;
+    padding: 18px;
+    border-radius: 8px;
+    position: relative;
+}
+.task-card-title {
+    font-family: var(--font-title);
+    font-size: var(--font-h2-size);
+    color: var(--base-black);
+}
+.task-card-description {
+    color: var(--body-txt-clr);
+    margin: 18px 0;
+}
+
+.task-status {
+    background-color: var(--neutral-white);
+    color: var(--primary-clr);
+    padding: 6px;
+    border-radius: 8px;
+    cursor: default;
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    font-size: small;
+}
