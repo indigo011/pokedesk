@@ -43,3 +43,8 @@
     padding: 20px;
     font-family: inherit;
 }
+
+option:hover {
+    background-color: var(--primary-clr) !important;
+    color: white;
+}

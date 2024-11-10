@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="./styles/form.css">
         <link rel="stylesheet" href="./styles/perfil.css">
         <title>Perfil</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0&icon_names=delete" />
     </head>
     <body>
         <header class="header">
@@ -32,8 +33,12 @@
                         <input type="text" placeholder="Nome completo" class="input">
                         <input type="email" placeholder="nome@exemplo.com" class="input">
 
-                        <label for="avatar" class="avatar-btn input">Avatar</label>
-                        <input type="file" name="avatar" id="avatar">
+                        <div class="file">
+                            <label for="avatar" class="avatar-btn input">Avatar</label>
+                            <input type="file" name="avatar" id="avatar">
+                            <label id="avatar-name" for="avatar" class="avatar-name"></>
+                        </div>
+
                         <button class="primary-btn btn" type="submit">Atualizar o perfil</button>
                     </form>
                 </section>
@@ -57,7 +62,7 @@
             <hr class="section-line">
             <p class="footer-txt"><small>© 2024 Trabalho de Web I. Todos os direitos reservados</small></p>  
         </footer>
-        
+        <script src="./script.js"></script>
     </body>
 </html>
 

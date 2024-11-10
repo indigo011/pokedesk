@@ -24,5 +24,34 @@ input[type=file] {
     cursor: pointer;
     padding: 20px 10px;
     text-align: center;
-
+    display: block;
+    margin-bottom: .8rem;
+    border: 1px solid transparent;
+    transition: border-color .3s;
 }
+
+.avatar-btn:hover {
+    border-color: var(--placeholder-clr);
+}
+
+.avatar-name {
+    width: 100%;
+    background-color: var(--input-clr);
+    border: 1px solid rgba(159, 160, 163, 0.1);
+    padding: 4px;
+    border-radius: 8px;
+    color: var(--placeholder-clr);
+    font-size: 12px;
+    display: none;
+    height: 1.3rem;
+    cursor: pointer;
+    transition: color .3s;
+    
+}
+
+.avatar-name:hover {
+    color: var(--primary-clr);
+}
+
+
+
