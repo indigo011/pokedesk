@@ -11,15 +11,15 @@
     </head>
     <body>
         <header class="header">
-            <a href="./form_chamado.php">
+            <a href="./index.php">
                 <h1 class="header-txt">pokéDesk</h1>
             </a>
             <div class="header-menu">
-                <a href="./listar_chamados.php" class="menu-link">Meus chamados</a>
+                <a href="./index.php" class="menu-link">Meus chamados</a>
                 <a href="./form_chamado.php">
                     <button class="menu-btn primary-btn">Novo chamado</button>
                 </a>
-                <a href="./perfil.html">
+                <a href="./perfil.php">
                     <img src="./assets/images/profile-icon.png" alt="user profile picture" class="menu-img" width="40px">
                 </a>
             </div>
@@ -37,7 +37,7 @@
 
             <div class="search">
                 <span class="search-icon material-symbols-outlined">search</span>
-                <input type="search" class="input search-input" placeholder="Digite algo para pesquisar">
+                <input type="search" class="search-input input" placeholder="Digite algo para pesquisar">
             </div>
 
             <div class="task-wrapper">

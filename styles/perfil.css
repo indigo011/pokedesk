@@ -1,0 +1,28 @@
+.main-card {
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+    width: 20%;
+    box-sizing: content-box;
+}
+
+.information-form, .password-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.btn {
+    align-self: flex-start;
+}
+
+input[type=file] {
+    display: none;
+}
+
+.avatar-btn {
+    cursor: pointer;
+    padding: 20px 10px;
+    text-align: center;
+
+}

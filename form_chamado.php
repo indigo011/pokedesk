@@ -18,7 +18,7 @@
             } else {
                 echo "<script>
                         alert('Registro atualizado com sucesso!');
-                        location.href='listar_chamados.php';
+                        location.href='index.php';
                       </script>";
             }
 
@@ -40,7 +40,7 @@
             } else {
                 echo "<script>
                         alert('Registro cadastrado com sucesso!');
-                        location.href='listar_chamados.php';
+                        location.href='index.php';
                       </script>";
             }
         }
@@ -74,15 +74,15 @@
 </head>
 <body>
     <header class="header">
-        <a href="./form_chamado.php">
+        <a href="./index.php">
             <h1 class="header-txt">pokéDesk</h1>
         </a>
         <div class="header-menu">
-            <a href="./listar_chamados.php" class="menu-link">Meus chamados</a>
+            <a href="./index.php" class="menu-link">Meus chamados</a>
             <a href="./form_chamado.php">
                 <button class="menu-btn primary-btn">Novo chamado</button>
             </a>
-            <a href="./perfil.html">
+            <a href="./perfil.php ">
                 <img src="./assets/images/profile-icon.png" alt="user profile picture" class="menu-img" width="40px">
             </a>
 

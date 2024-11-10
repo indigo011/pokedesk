@@ -12,7 +12,7 @@
         } else {
             echo "<script>
                     alert('O chamado foi excluído com sucesso!');
-                    location.href='./listar_chamados.php';
+                    location.href='./index.php';
                   </script>";
         }
 

@@ -40,16 +40,26 @@
     width: 100%;
     gap: 10px;
     padding: 1px 10px;
-    border: 1px solid var(--placeholder-clr);
+    border: 1px solid rgba(159, 160, 163, 0.1);
     border-radius: 8px;
     align-items: center;
     margin: 14px 0;
+    transition: border-color .3s;
+}
+
+.search:has(.search-input:focus) {
+    border-color: var(--primary-clr);
 }
 
 .search-input {
     background-color: var(--neutral-white);
     border: none;
     padding: 8px;
+    flex: 1;
+}
+
+.search-input:focus {
+    color: var(--primary-clr);
 }
 
 .search-icon {

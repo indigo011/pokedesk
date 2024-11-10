@@ -4,9 +4,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 70%;
+    /* height: 70%; */
     gap: 30px;
-    margin-top: 76px;
 }
 
 .main-form {
@@ -25,9 +24,15 @@
 .input {
     width: 100%;
     background-color: var(--input-clr);
-    border: none;
+    border: 1px solid rgba(159, 160, 163, 0.1);
     border-radius: 8px;
     padding: 12px;
+    transition: border-color .3s;
+}
+
+.input:focus {
+    border: 1px solid var(--primary-clr);
+    color: var(--primary-clr);
 }
 
 .input::placeholder {
